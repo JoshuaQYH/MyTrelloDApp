@@ -1,8 +1,6 @@
 
 
-# 区块链期末 DApp 项目制品文档
-
-学号：16340186  姓名： 邱奕浩
+#DApp 项目制品文档
 
 项目托管于个人[Github](https://github.com/JoshuaQYH/MyTrelloDApp)
 
@@ -283,12 +281,6 @@ export default getWeb3;
 
 
 
-* 添加任务界面。输入成员任务名称，截止时间，任务描述即可一键部署到`rinkeby` 测试网络中。
-
-  ![54626125473](C:\Users\Qiuyh\AppData\Local\Temp\1546261254730.png)
-
-
-
 * 显示团队成员界面。页面加载即获取`rinkeby`公链合约数据。
 
   ![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/20181231210142.png)
@@ -298,13 +290,6 @@ export default getWeb3;
 * 添加任务成员界面。通过输入成员名称，成员账户地址，成员方式即可一键添加成员到`Team` 合约中。
 
   ![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/20181231210529.png)
-
-
-
-* 删除成员界面。直接输入成员账户地址，点击按钮调用，即可完成删除。
-
-  ![54626160259](C:\Users\Qiuyh\AppData\Local\Temp\1546261602597.png)
-
 
 
 * 任务评分界面。输入任务地址和参与成员的地址，即可完成评分。一次一分。
@@ -371,7 +356,6 @@ npm start
 
 2. 通过访问`localhost:3000/register`点击按钮部署。
 
-   ![54626318587](C:\Users\Qiuyh\AppData\Local\Temp\1546263185872.png)
 
 3.复制合约地址，到文件`src/data/teamAddr.json` 中，粘贴替代`address` 字段。重新启动项目即可。
 
@@ -407,7 +391,6 @@ npm start
 
 通过[Etherscan](https://rinkeby.etherscan.io/address/0x29C5B98709CaeEa3b588F2Db82989Ab1A0E99874) 访问合约地址`0x29C5B98709CaeEa3b588F2Db82989Ab1A0E99874` ，显示已经部署到公共测试网络。`rinkeby.` 
 
-![54626461146](C:\Users\Qiuyh\AppData\Local\Temp\1546264611462.png)
 
 
 
